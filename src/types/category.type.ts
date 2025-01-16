@@ -1,7 +1,6 @@
-type Category = {
-    id: string;
+interface UpsertCategory {
     name: string;
     description?: string;
-}
-
-export { Category }
+  }
+  
+  export { UpsertCategory };
